@@ -1,3 +1,33 @@
 img {
   width: 1.5em;
 }
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
