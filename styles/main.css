@@ -1,5 +1,6 @@
 body {
   background-color: #fff;
+  margin: 0;
 }
 
 .icon {
@@ -39,4 +40,20 @@ li {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 17px;
+}
+
+.personal-summary {
+  background-image: url('../images/gradient-background.png');
+  background-size: cover;
+  height: 450px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.welcome-text {
+  width: 50%;
+  padding-left: 30px;
 }
