@@ -24,7 +24,7 @@ h2 {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 26px;
   text-transform: uppercase;
   color: #262626;
 }
@@ -56,4 +56,18 @@ li {
 .welcome-text {
   width: 50%;
   padding-left: 30px;
+}
+
+.article-links {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-boxes {
+  padding: 20px 100px 20px;
+  width: 20%;
+  text-align: center;
 }
