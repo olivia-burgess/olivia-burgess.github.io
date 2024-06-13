@@ -1,4 +1,4 @@
-html {
+body {
   background-color: #f7f7ff;
 }
 
@@ -7,45 +7,42 @@ img {
 }
 
 h1 {
-  font-family: 'DM Serif Display', serif;
-  font-weight: 800;
-  font-size: 30px;
-  color: #212922;
+  font-family: 'Trocchi', serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #020202;
 }
 
 h2 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   font-size: 50px;
-  color: #904c77;
+  color: #262626;
 }
 
 h3 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 25px;
-  color: #212922;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #262626;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 17px;
-  color: #212922;
+  color: #000;
 }
 
 li {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 17px;
 }
 
 header {
   background-color: #d0e562;
-}
-
-.personal-summary {
-  background-color: #f7f7ff;
 }
 
 .article-links {
