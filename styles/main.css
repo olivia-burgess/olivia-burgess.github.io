@@ -1,5 +1,5 @@
 body {
-  background-color: #f7f7ff;
+  background-color: #fff;
 }
 
 .icon {
@@ -39,12 +39,4 @@ li {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 17px;
-}
-
-header {
-  background-color: #d0e562;
-}
-
-.article-links {
-  background-color: #d0e562;
 }
