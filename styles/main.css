@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ad88c6;
+  color: #fff;
+  margin: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+header {
+  background-color: #7469b6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  width: 20rem;
+  flex-grow: 1;
+}
+
+.nav-options {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  width: 20rem;
+  padding-left: 2rem;
+  flex-grow: 1;
+}
+
+li:hover {
+  background-color: #000;
+}
+
+.nav-link {
+  text-align: left;
+}
+
+.github-link {
+  width: 20rem;
+  text-align: right;
+  padding-right: 2rem;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:link {
+  color: #fff;
+}
+
+.icon {
+  width: 24px;
+}
+
+main {
+  display: flex;
+}
+
+span {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0px;
+}
+
+.olivia-picture {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 200px;
+}
