@@ -76,9 +76,12 @@ a:link {
 }
 
 main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.welcome-container {
   display: flex;
-  padding: 2rem;
-  gap: 2rem;
 }
 
 span {
