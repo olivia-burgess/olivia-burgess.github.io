@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olivia Burgess | Personal Blog</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../images/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="../../styles/main.css" />
+  </head>
+  <body>
+    <header class="nav-bar">
+      <a href="../../index.html"
+        ><img src="../../images/logo.svg" alt="logo"
+      /></a>
+      <ul>
+        <li><a class="nav-link" href="../human.html">Human</a></li>
+        <li><a class="nav-link" href="../technical.html">Technical</a></li>
+        <li><a class="nav-link" href="../projects.html">Projects</a></li>
+        <li><a class="nav-link" href="../about-me.html">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="article-page">
+      <h2>
+        An analogy to describe JavaScript and its relationship to HTML and CSS
+      </h2>
+      <p>
+        An analogy for JavaScript and its relationship with HTML and CSS is like
+        a Rubik's Cube. In this analogy for Rubix cube:
+      </p>
+      <p>
+        <strong>HTML</strong> is like the structure and essential elements to
+        create the cube for example there should be 26 distinct cubes.
+      </p>
+      <p>
+        <strong>CSS</strong> is like the appearance of the cube, specifying the
+        color and arrangement of the squares making the puzzle visually
+        appealing and distinct.
+      </p>
+      <p>
+        And finally: <strong>JavaScript</strong> is like the mechanism that
+        allows you to twist and turn the Rubik's Cube. It enables interactivity
+        and dynamic changes, allowing you to manipulate the cube's squares and
+        work towards solving the puzzle. Just as the ability to move and rotate
+        the cube is crucial for solving it, JavaScript adds interactivity and
+        dynamic behavior to the webpage, responding to user actions and creating
+        a more engaging and responsive experience.
+      </p>
+      <h2>
+        Explain control flow and loops using an example process from everyday
+        life, for example, 'waking up' or 'brushing your teeth' (but not those).
+      </h2>
+      <h3>Control Flow</h3>
+      <p>
+        Control flow allows us to finely manage how our code executes. For
+        instance, consider the decision-making process of deciding when to eat
+        lunch. There are several factors to consider:
+      </p>
+      <ul>
+        <li>Am I hungry?</li>
+        <li>What time is it?</li>
+        <li>When did I last eat?</li>
+        <li>And so on.</li>
+      </ul>
+      <p>
+        Each of these factors acts as a condition. By setting up conditions, we
+        can determine if it's time for lunch based on specific criteria. This
+        simplifies decision-making significantly. For example, if the condition
+        "Am I hungry?" is true, then it's lunchtime—no need to think about the
+        other conditions like time or last meal. This streamlined approach saves
+        time and mental effort.
+      </p>
+      <p>
+        However, if I'm not hungry, we might want to check other conditions. For
+        instance, if I'm following a dietary schedule for exercise to ensure
+        adequate protein intake, in this scenario, time of day could be another
+        condition to consider if the hunger condition is false. This level of
+        control allows us to precisely dictate the flow of actions based on
+        varying circumstances, providing a granular approach to decision-making
+        in coding.
+      </p>
+      <p>An example of this in Javascript can look like:</p>
+      <img
+        src="../../images/JavaScript_Editor.png"
+        alt="code snipe of control flow in
+      javascript"
+      />
+      <p>
+        Another thing I will share is an interesting video I watched on YouTube
+        which uses conditionals for a game called FizzBuzz. It is a worthwhile
+        watch:
+      </p>
+      <iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed/QPZ0pIK_wsc"
+      >
+      </iframe>
+      <h3>Loops</h3>
+      <p>
+        When it comes to loops, you might have heard the phrase "stuck in a
+        loop," well I recently learnt this can happen to computers too. However,
+        loops can be incredibly useful. They provide precise control over when
+        to start, repeat and stop a task to achieve a desired outcome.
+      </p>
+      <p>
+        Consider folding laundry as an example. Imagine you have a certain
+        number of items to fold, and each item is folded individually. Using a
+        loop for folding clothes means repeating the process for each item—each
+        repetition is an iteration. You continue folding until all items are
+        added to your folded pile. Of course, once all items are folded, you
+        don't want to keep folding nothing. That's when you exit the loop.
+      </p>
+      <p>An example of this in Javascript can look like:</p>
+      <img
+        src="../../images/JavaScript_Editor_loop.png"
+        alt="code snipe of loop in javascript"
+      />
+      <h2>
+        Describe what the DOM is and an example of how you might interact with
+        it.
+      </h2>
+      <p>
+        The DOM, or Document Object Model, is a way for JavaScript to interact
+        with HTML. The browser provides the document object model as part of the
+        window object. It's akin to Google Translate in that it bridges
+        communication between different languages. JavaScript doesn't inherently
+        understand HTML, so the DOM translates HTML into a format JavaScript can
+        comprehend. This is called the tree structure, here is a diagram of
+        that:
+      </p>
+      <img src="../../images/dom-tree.png" alt="diagram on dom tree" />
+      <p>
+        Using this tree structure, JavaScript can dynamically modify HTML
+        content, adding elements or altering existing ones, which is both
+        efficient and powerful.
+      </p>
+      <p>
+        When working with Html and Javascript, these are some ways you can
+        interact with the DOM:
+      </p>
+      <ul>
+        <li>Including script tags directly within HTML files.</li>
+        <li>Linking to external JavaScript files from HTML documents.</li>
+      </ul>
+      <p>
+        Another way can be in developer tools, here you can perform actions like
+        console.log to debug or explore elements directly.
+      </p>
+      <h3>
+        Explain the difference between accessing data from arrays and objects.
+      </h3>
+      <p>
+        Arrays are indexed, objects are not. Array elements can only be accessed
+        by using indexer accessing (bracket notation). Objects can contain
+        properties and methods that can either be accessed via bracket notation
+        or using dot notation. Furthermore, objects can be descruturced to
+        access properties and methods.
+      </p>
+      <h3>Explain what functions are and why they are helpful.</h3>
+      <p>
+        Functions are self-contained blocks of code that can be reused. They can
+        be called (invoked) and often require parameters to perform specific
+        operations or computations. Each function has its own scope and can be
+        declared within another scope. Functions are valuable because they
+        promote code reuse, helping us avoid redundancy. Additionally, they
+        improve code readability by allowing us to break down large blocks of
+        code into manageable, understandable parts.
+      </p>
+    </main>
+  </body>
+</html>
